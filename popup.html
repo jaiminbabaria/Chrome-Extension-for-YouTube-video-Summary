@@ -1,0 +1,49 @@
+<!-- <!DOCTYPE html>
+ <html>
+  <head>
+  </head>
+  <body>
+
+    <button id="btn">Click me to get url!</button>
+    <p id="printurl"></p>
+    <script src="popup2.js"></script>
+  </body>
+</html>
+ -->
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <script src="jquery.js"></script>
+         <link rel="stylesheet" href="popup.css">
+     </head>
+     <body>
+       <div class="full border" id ="mainForm">
+        <h1>YouTube Summerizer</h1>
+
+        <!-- <label class="radio">Spacy
+          <input type="radio" checked="checked" name="radio" value="spacy">
+          <span class="checkmark"></span>
+        </label>
+        <label class="radio">NLTK
+          <input type="radio" name="radio" value="nltk">
+          <span class="checkmark"></span>
+        </label> -->
+        
+        <h3 style="font-size: 15px;">Select Shrinkage: <span style="font-size: 18px;"id="demo"></span></h3>
+        <input id="keyword" type="hidden" value="">
+      <div class="slidecontainer">
+        <input type="range" min="20" max="80" value="20" step="30" class="slider" id="myRange">
+      </div><br>
+        <input class="button-shrink" id="keywordsubmit" type="submit" value="Shrink"/>
+        </div>
+
+
+        <div class=" full border result" id="result">
+          <h1 id="video_title"></h1>
+          <h3 id= "like_view" style="font-size: 15px;text-align: right;"></h3><hr>
+          <p id = "sum"></p>
+        </div>
+     </body>
+     <script src="popup2.js"></script>
+ </html>
+
